@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #202024;
+}
+header{
+    background-color: #131315;
+    display: flex;
+    width: 100%;
+    max-width: 1920px;
+    height: 50px;
+    justify-content: space-between;
+}
+.homebox{
+    justify-content: center;
+    margin-top: 2%;
+    height: 100vh;
+    text-align: center;
+    padding: 70px 10%;
+}
+h1{
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.icon{
+    height: 40px;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 0.5%;
+    transition: all 0.3s ease-in-out 0s;
+}
+.icon:hover{
+    transform: scale(1.1);
+}
+.titulo{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size:400%; 
+    text-align: center;
+}
+.subtitulo{
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 150%;
+        text-align: center;
+        color: white;
+}
+.sobre{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textob {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size:150%; 
+    text-align: center;
+}
+.barra{
+    margin: 20px;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    color:white ;
+}
+.botaop1{
+    background-color: #131315;
+    width: 160px;
+    height: 50px;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    border-radius: 4%;
+    margin: 2%;
+    margin-bottom: 1%;
+    transition: all 0.3s ease-in-out 0s;
+}
+.botaop1:hover{
+    background-color: #1313159b;
+    transform: scale(1.1);
+    
+}
+.op{
+    display:flex;
+    justify-content: center;
+}
+.items{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    display: flex;
+    margin:2%;
+}
+.subtitulo2{
+    align-self: flex-end;
+    color: white;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+}
+.boxprojetos{
+    width: 400px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: 2%;;
+    display: flex;
+    border-radius: 1%;
+    background-color: #131315;
+    transition: all 0.3s ease-in-out 0s;
+}
+.boxprojetos:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.back{
+    text-align: center;
+    opacity: 100%;
+}
+.projetosbox{
+    padding: 70px 10%;
+}
+
+
